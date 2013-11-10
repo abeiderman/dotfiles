@@ -10,3 +10,5 @@ vmap <C-d> y'>p
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 
+set splitbelow
+set splitright
