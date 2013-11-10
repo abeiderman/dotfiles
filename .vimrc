@@ -12,3 +12,16 @@ nmap <CR> o<Esc>
 
 set splitbelow
 set splitright
+
+"Moving between windows
+nnoremap <C-j> <C-w>j
+nnoremap <C-Down> <C-w>j
+
+nnoremap <C-k> <C-w>k
+nnoremap <C-Up> <C-w>k
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-Left> <C-w>h
+
+nnoremap <C-l> <C-w>l
+nnoremap <C-Right> <C-w>l
