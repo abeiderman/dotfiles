@@ -1,3 +1,4 @@
 alias seed="rake db:seed"
 alias gpr="git pull --rebase"
 alias pgstart="rake postgresql:start"
+alias ptp="git pull --rebase && rake && git push"
