@@ -7,7 +7,7 @@ vmap <C-d> y'>p
 
 "Enter/shift-enter in normal mode to insert line after/before and remain
 "in normal mode
-nmap <S-Enter> O<Esc>
+nmap <S-Enter> O<Esc>j
 nmap <CR> o<Esc>
 
 set splitbelow
@@ -25,3 +25,10 @@ nnoremap <C-Left> <C-w>h
 
 nnoremap <C-l> <C-w>l
 nnoremap <C-Right> <C-w>l
+
+"Save file
+nnoremap <C-s> :w<Enter>
+inoremap <C-s> <Esc>:w<Enter>
+
+"Quit file
+nnoremap <C-q> :q<Enter>
