@@ -28,7 +28,9 @@ nnoremap <C-Right> <C-w>l
 
 "Save file
 nnoremap <C-s> :w<Enter>
+nnoremap <C-S> :wa<Enter>
 inoremap <C-s> <Esc>:w<Enter>
+inoremap <C-S> <Esc>:wa<Enter>
 
 "Quit file
 nnoremap <C-q> :q<Enter>
