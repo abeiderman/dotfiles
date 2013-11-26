@@ -1,6 +1,7 @@
 nmap :Q :q
 nmap :W :w
 set wildignore+=*/tmp/*
+set wildignore+=*/public/assets/*
 
 "Control-d in visual mode to duplicate the selected text and paste it after cursor
 vmap <C-d> y'>p
