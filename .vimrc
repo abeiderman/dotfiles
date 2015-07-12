@@ -35,3 +35,9 @@ inoremap <C-S> <Esc>:wa<Enter>
 
 "Quit file
 nnoremap <C-q> :q<Enter>
+
+"Folding settings
+set foldmethod=syntax
+set foldnestmax=5
+set nofoldenable
+set foldlevel=1
