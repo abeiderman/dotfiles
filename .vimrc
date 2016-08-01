@@ -41,3 +41,6 @@ set foldmethod=syntax
 set foldnestmax=5
 set nofoldenable
 set foldlevel=1
+
+"Spelling
+autocmd BufRead,BufNewFile *.html,*.erb,*.text,*.txt,*.yml setlocal spell
